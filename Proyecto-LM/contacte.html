@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<HTML>
+<head>
+    <meta charset="utf-8">
+    <title>Tattoo Princess - Contactes</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="principal">
+        <header>
+            <h1>Tattoo Princess</h1>
+            <p><b>Buenos dias, princesa!</b></p>
+        </header>
+        <nav class="paginas">
+            <p>
+                <a href="index.html"><span style="color: white;">Principal</span></a>
+                <a href="horari.html"><span style="color: white;">Horari</span></a>
+                <a href="videos.html"><span style="color: white;">Videos</span></a>
+            </p>
+        </nav>
+        <br>
+        <main>
+            <fieldset>
+            <legend><h2>Formulario de Contacte</h2></legend>
+            <form action="#" method="POST">
+                <label for="nom">Nom:</label>
+                <input type="text" id="nom" name="nom" placeholder="Escriu el teu nom" required><br><br>
+
+                <label for="cognom">Nom:</label>
+                <input type="text" id="cognom" name="cognom" placeholder="Escriu el teu cognom" required><br><br>
+
+                <label for="email">Correu Electrònic:</label>
+                <input type="email" id="email" name="email" placeholder="exemple@correu.com"><br><br>
+
+                <label for="telefon">Telèfon:</label>
+                <input type="number" id="telefon" name="telefon" placeholder="612345678" required><br><br>
+                
+                <label for="data">Data de la visita:</label>
+                <input type="date" id="data" name="data" required><br><br>
+
+                <label for="preferencia">Preferència:</label><br>
+                <input type="radio" id="tattoo" name="preferencia" value="tattoo" required>
+                <label for="tattoo">Tatuatge</label><br>
+                <input type="radio" id="piercing" name="preferencia" value="piercing">
+                <label for="piercing">Piercing</label><br><br>
+
+                <label for="serveis">Serveis sol·licitats:</label><br>
+                <input type="checkbox" id="cremes" name="serveis" value="cremes">
+                <label for="cremes">Cremes</label><br><br>
+
+                <label for="provincia">Provincia:</label>
+                <select id="provincia" name="provincia">
+                    <option value="valencia">València</option>
+                    <option value="castello">Castello</option>
+                    <option value="alacant">Alacant</option>
+                    <option value="fora">De fora</option>
+                </select><br><br>
+
+                <label for="cita">Cita:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="5" cols="30" placeholder="Escriu els detalls de la teua cita asi" required></textarea><br><br>
+
+                <label for="foto">Foto:</label><br>
+                <input type="file" name="foto" id="foto" required><br><br>
+
+                <button id="enviar" type="submit">Enviar</button>
+            </form>
+        </fieldset>
+        </main>
+    </div>
+    <footer>
+        <h3>Contactos</h3>
+        <p>
+            <a href=""><span style="color: rgb(0, 81, 255);">Facebook</span></a> - <a href=""><span style="color: rgb(255, 251, 0);">Instagram</span></a> - <a href=""><span style="color: rgb(0, 255, 106);">WhatsApp</span></a>
+            <br>1DAW - LM - Carl Altair &copy; 2024 
+        </p>
+    </footer>
+</body>
+</HTML>

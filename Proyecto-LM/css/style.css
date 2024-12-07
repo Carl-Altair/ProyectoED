@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'Dancing';
+    src: url('../fonts/DancingScript.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Merriweather';
+    src: url('../fonts/Merriweather.ttf') format('truetype');
+}
+
+body {
+    background-color: black;
+}
+
+.principal {
+    background-color: rgb(71, 4, 45);
+    text-align: center;
+    font-family: 'Dancing';
+    padding: 7%;
+}
+
+header {
+    color: rgb(255, 255, 255);
+    padding: 2.5%;
+    background-color: black;
+    margin-left: -10%;
+    margin-right: -10%;
+    margin-top: -10%;
+}
+
+table {
+    background-color: black;
+}
+
+fieldset {
+    text-align: left;
+    border-radius: 2%;
+}
+
+#mensaje {
+    border-radius: 5%; 
+}
+
+.paginas {
+    background-color: rgb(22, 12, 31);
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 5px;
+    margin-left: -10%;
+    margin-right: -10%;
+}
+
+.paginas:visited {
+    color: magenta;
+}
+
+.paginas:hover {
+    color: magenta;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    font-family: 'Merriweather';
+}
+
+aside {
+    text-align: center;
+    margin-right: 50%;
+    color: white;
+}
+
+main {
+    color: white;
+}
+
+.ul, li {
+    text-align: left;
+    margin: auto;
+    list-style-position: unset;
+}
+
+table {
+    margin-left: auto;
+	margin-right: auto;
+    font-family: 'Merriweather';
+    border-radius: 10px;
+
+}
+
+.th, td {
+	text-align: center;
+    border-radius: 10px;
+}
+
+.articles {
+    color: white;
+    margin: 7%;
+}
+
+#data {
+    background-color: rgb(71, 4, 45);
+    color: white;
+    border-radius: 10%;
+    border-color: white;
+}
+
+#provincia {
+    background-color: rgb(71, 4, 45);
+    color: white;
+    border-radius: 5%;
+    border-color: white;
+}
+
+#enviar {
+    background-color: rgb(71, 4, 45);
+    color: white;
+    border-radius: 20%;
+    border-color: white;
+}
+
+footer {
+    color: rgb(255, 255, 255);
+    background-color: rgb(26, 1, 26);
+    padding: 2px;
+    margin-left: -5%;
+    margin-right: -5%;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Dancing';
+}
